@@ -7,10 +7,13 @@ import Details from './pages/Details';
 
 import Navbar from './components/Navbar';
 
+
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+    
+      <Navbar />
+    
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/category' element={<Category />} />

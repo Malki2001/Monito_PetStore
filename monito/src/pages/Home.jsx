@@ -1,10 +1,16 @@
 import React from 'react'
+import MainBanner from '../components/MainBanner'
+import Newones from '../components/Newones'
 
 function Home() {
   return (
     <div>
-      hello from home
-    </div>
+      <MainBanner/>
+      <Newones/>
+   
+
+   </div>
+   
   )
 }
 
